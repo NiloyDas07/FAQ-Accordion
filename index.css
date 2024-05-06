@@ -28,7 +28,6 @@ body {
 }
 
 #container {
-  margin: 0 auto;
   width: 80%;
   max-width: 540px;
   padding: 30px;
@@ -59,22 +58,29 @@ main {
 .answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s, padding 0.5s;
+  transition: padding 0.7s, max-height 0.7s;
 }
 
 .question[aria-expanded="true"] + .answer {
-  max-height: 1000px;
   padding-top: 25px;
+  max-height: 1000px;
 }
 
 .question {
+  width: 100%;
   display: flex;
   align-items: center;
+  background: none;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+  padding: 0;
 }
 
 .question:hover,
 .question:focus {
   color: var(--GrayishPurple);
+  cursor: url("./assets/images/cursor.svg"), auto;
 }
 
 .question::after {

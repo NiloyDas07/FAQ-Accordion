@@ -16,9 +16,4 @@ class Accordion {
 }
 
 const accordions = document.querySelectorAll(".question");
-const accordionHeads = [
-  accordions.forEach((accordionHead) => new Accordion(accordionHead)),
-];
-accordionHeads.forEach(
-  (accordionHead) => (accordionHead.accordions = accordionHeads)
-);
+accordions.forEach((accordionHead) => new Accordion(accordionHead));
