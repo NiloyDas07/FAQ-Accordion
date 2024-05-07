@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/NiloyDas07/FAQ-Accordion/)
-- Live Site URL: [Live Site](https://niloydas07.github.io/FAQ-Accordion/)
+- Live Site URL: [Live Site](https://faq-accordion-niloydas07.netlify.app/)
 
 ## My process
 
