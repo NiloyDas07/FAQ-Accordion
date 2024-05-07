@@ -48,7 +48,7 @@ Users should be able to:
 ### What I learned
 
 - Using ARIA standards for better accessibility.
-- I made another version using only HTML and CSS. Figuring out the CSS for that was the hardest part for me. If you want to check it out, It is available in the branch **usingCheckbox**. Or you can click[this link](https://github.com/NiloyDas07/FAQ-Accordion/tree/usingCheckbox).
+- I made another version using only HTML and CSS. Figuring out the CSS for that was the hardest part for me. If you want to check it out, It is available in the branch **usingCheckbox**. Or you can click [this link](https://github.com/NiloyDas07/FAQ-Accordion/tree/usingCheckbox).
 
 ### Continued development
 
