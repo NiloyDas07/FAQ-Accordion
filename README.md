@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/NiloyDas07/FAQ-Accordion/)
+- Solution URL: [GitHub](https://github.com/NiloyDas07/FAQ-Accordion/tree/usingCheckbox)
 - Live Site URL: [Live Site](https://niloydas07.github.io/FAQ-Accordion/)
 
 ## My process
