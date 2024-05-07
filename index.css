@@ -55,40 +55,44 @@ main {
   gap: 35px;
 }
 
+input[type="checkbox"] {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
 .answer {
   max-height: 0;
   overflow: hidden;
   transition: padding 0.7s, max-height 0.7s;
 }
 
-.question[aria-expanded="true"] + .answer {
+input:checked ~ .answer {
   padding-top: 25px;
   max-height: 1000px;
 }
 
-.question {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background: none;
-  color: inherit;
-  border: none;
-  font-size: inherit;
-  padding: 0;
+input:focus + label {
+  color: var(--GrayishPurple);
 }
 
-.question:hover,
-.question:focus {
+label:hover,
+label:focus {
   color: var(--GrayishPurple);
   cursor: url("./assets/images/cursor.svg"), auto;
 }
 
-.question::after {
-  content: url("./assets/images/icon-plus.svg");
-  margin-left: auto;
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.question[aria-expanded="true"]::after {
+label::after {
+  content: url("./assets/images/icon-plus.svg");
+}
+
+input:checked + label::after {
   content: url("./assets/images/icon-minus.svg");
 }
 
